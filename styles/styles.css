@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: Informa Pro;
+}
+
+h1 {
+  font-weight: regular;
+}
+
+h2 {
+  font-weight: regular;
+}
+
+.splide {
+  height: 100vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.splide_slide {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.slide1 {
+  text-align: center;
+}
+
+.intro {
+  background-image: url(../images/background-soda.jpeg);
+  background-size: cover;
+  height: 100%;
+  width: auto;
+  padding: 5rem;
+}
+
+.title {
+  color: white;
+  margin-top: 24vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.5rem;
+}
+
+.subtitle {
+  color: white;
+}
+
+.slide2 {
+  padding: 2rem;
+}
+
+.creation {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.slide3 {
+  padding: 2rem;
+}
+
+.context {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.slide4 {
+  padding: 2rem;
+}
+
+.bbq {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.slide5 {
+  padding: 2rem;
+}
+
+.influence {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.slide6 {
+  padding: 2rem;
+}
+
+.closing {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.slide7 {
+  padding: 2rem;
+}
+
+.quiz {
+  background-color: gray;
+  border-radius: 10px;
+}
