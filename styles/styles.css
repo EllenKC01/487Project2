@@ -1,7 +1,22 @@
+/* colors:
+red- #85374B
+darker red- #52212D
+blue- #86C9C0
+darker blue- #659690
+black- #090302
+*/
+
 body {
   margin: 0;
-  background-color: black;
   font-family: Informa Pro;
+  background-image: url(../images/cheerwinedrawing.jpeg);
+  background-size: cover;
+  backdrop-filter: brightness(55%);
+}
+
+.bg-img {
+  margin: none;
+  padding: none;
 }
 
 h1 {
@@ -14,8 +29,8 @@ h2 {
 
 .splide {
   height: 100vh;
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding: none;
+  margin: none;
 }
 
 .splide_slide {
@@ -29,14 +44,15 @@ h2 {
 }
 
 .intro {
-  background-image: url(../images/background-soda.jpeg);
-  background-size: cover;
-  height: 100%;
-  width: auto;
-  padding: 5rem;
+  padding: 7rem;
 }
 
 .title {
+  color: white;
+  text-align: center;
+}
+
+.web-title {
   color: white;
   margin-top: 24vh;
   margin-left: auto;
@@ -49,55 +65,101 @@ h2 {
 }
 
 .slide2 {
-  padding: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 6rem;
 }
 
 .creation {
-  background-color: gray;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.slide-img {
+  height: 40vh;
+  width: auto;
   border-radius: 10px;
 }
 
 .slide3 {
   padding: 2rem;
+  color: white;
 }
 
-.context {
-  background-color: gray;
-  border-radius: 10px;
+.timeline {
+  padding-top: 8rem;
 }
 
 .slide4 {
-  padding: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 4rem;
 }
 
-.bbq {
-  background-color: gray;
+.context {
   border-radius: 10px;
+  text-align: center;
 }
 
 .slide5 {
-  padding: 2rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  padding-top: 2rem;
 }
 
-.influence {
-  background-color: gray;
+.bbq {
   border-radius: 10px;
+  text-align: center;
 }
 
 .slide6 {
-  padding: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 3rem;
 }
 
-.closing {
-  background-color: gray;
+.influence {
   border-radius: 10px;
+  text-align: center;
 }
 
 .slide7 {
-  padding: 2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 2rem;
 }
 
-.quiz {
-  background-color: gray;
+.closing {
   border-radius: 10px;
+  text-align: center;
+}
+
+.slide8 {
+  padding-top: 4rem;
+}
+
+.take-quiz {
+  text-align: center;
+}
+
+.quiz-title {
+  color: white;
+}
+
+.slide9 {
+  background-color: #85374b;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.source {
+  color: #86c9c0;
+  font-family: Informa Pro;
+}
+
+.source:hover {
+  color: #659690;
 }

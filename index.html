@@ -8,63 +8,108 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="https://kit.fontawesome.com/4a865f270a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link href="./styles/jquery.roadmap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/jquery.quiz-min.css">
 </head>
 
 <body>
-    <div class="splide">
-        <div class="slide-slider">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide slide1">
-                        <div class="splide_slide_container intro">
-                            <h1 class="title">Cheerwine: a southern tradition</h1>
-                            <h2 class="subtitle">For over 100 years, Cheerwine has been attracting fans with its unique cherry flavor, but how much do you really know about the North Carolina-born soft drink? <br> Read on to find out.</h2>
-                        </div>
-                    </li>
-                    <li class="splide__slide slide2">
-                        <div class="splide_slide_container creation">
+    <div class="bg-img">
+        <div class="splide">
+            <div class="slide-slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide slide1">
+                            <div class="splide_slide_container intro">
+                                <h1 class="web-title">Cheerwine: a Southern Tradition</h1>
+                                <h2 class="subtitle">For over 100 years, Cheerwine has been attracting fans with its unique cherry flavor, but how much do you really know about the North Carolina-born soft drink? <br> Read on to find out.</h2>
+                            </div>
+                        </li>
+                        <li class="splide__slide slide2">
                             <h1 class="title">In the Beginning</h1>
+                            <div class="splide_slide_container creation">
+                                <img class="slide-img" src="./images/vintagecheerwine.jpeg" alt="vintage">
+                            </div>
                             <h2 class="subtitle">Cheerwine was created in Salisbury, NC in 1917. The founder, named L.D. Peeler, was sold a wild cherry flavor from St. Louis, and after deciding on the name "Cheerwine," the soda was born. It became an instant hit.</h2>
-                            <!-- timeline plugin -->
-                        </div>
-                    </li>
-                    <li class="splide__slide slide3">
-                        <div class="splide_slide_container context">
+                        </li>
+                        <li class="splide__slide slide3">
+                            <div class="splide_slide_container timeline">
+                                <div id="my-timeline"></div>
+                            </div>
+                        </li>
+                        <li class="splide__slide slide4">
                             <h1 class="title">The Home Front</h1>
+                            <div class="splide_slide_container context">
+                                <img class="slide-img" src="./images/cheerwinetruck.jpeg" alt="cheerwine truck">
+                            </div>
                             <h2 class="subtitle">L.D. Peeler was aiming to create a new soda during World War I at the height of a sugar shortage, so his recipe had to use less while still maintaining the sweetness his competition contained. The iconic cherry flavor achieved this goal, and gave Cheerwine its claim to fame as the first ever bottled cherry soda.</h2>
-                        </div>
-                    </li>
-                    <li class="splide__slide slide4">
-                        <div class="splide_slide_container bbq">
+                        </li>
+                        <li class="splide__slide slide5">
                             <h1 class="title">Southern Tradition</h1>
+                            <div class="splide_slide_container bbq">
+                                <img class="slide-img" src="./images/bbq.jpeg" alt="bbq">
+                            </div>
                             <h2 class="subtitle">Aside from its founding location and loyal fanbase in the South, one of the elements that helped cement Cheerwine as a staple of the South was barbecue culture. The drink's sweet flavor is considered by Southerners to be one of the best pairings with NC-style barbecue since it complements the vinegar and ketchup flavors of the meat, and barbecue restaurants around the state have served the soda for as long as many people can remember. The combination is so iconic it even has its own name: a "Southern handshake."</h2>
-                        </div>
-                    </li>
-                    <li class="splide__slide slide5">
-                        <div class="splide_slide_container influence">
+                        </li>
+                        <li class="splide__slide slide6">
                             <h1 class="title">A Cheery Future</h1>
+                            <div class="splide_slide_container influence">
+                                <img class="slide-img" src="./images/company.jpeg" alt="vintage">
+                            </div>
                             <h2 class="subtitle">Over the years, demand for Cheerwine has increased gradually to encompass more than just North Carolina. While it is currently still difficult to find the beverage outside of Southern states, that fact will soon change. As native North Carolinians move away from the state, they have brought knowledge of and demand for the drink with them, and social media is only expediting the process. Cheerwine is even available on Amazon now.</h2>
-                        </div>
-                    </li>
-                    <li class="splide__slide slide6">
-                        <div class="splide_slide_container closing">
+                        </li>
+                        <li class="splide__slide slide7">
                             <h1 class="title">100 Years of Greatness</h1>
+                            <div class="splide_slide_container closing">
+                                <img class="slide-img" src="./images/festival-image-4.jpeg" alt="vintage">
+                            </div>
                             <h2 class="subtitle">2017 marked Cheerwine's centennial and the start of the annual Cheerwine Festival in Salisbury, and the company shows no signs of slowing anytime soon. The Carolina Beverage Company, remaining faithful to the classic drink, only produces Cheerwine, though they have since released diet, zero sugar, and holiday versions, along with other Cheerwine-inspired recipes like an ice cream flavor and an annual Krispy Kreme Cheerwine donut. The drink is also used in several barbecue sauces and other desserts. It is safe to say Cheerwine will be around for many years to come.</h2>
-                        </div>
-                    </li>
-                    <li class="splide__slide slide7">
-                        <div class="splide_slide_container quiz">
-                            <h1 class="title">Where you paying attention?</h1>
-                            <h2 class="subtitle">Take the quiz to find out how much you learned!</h2>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                        <li class="splide__slide slide8">
+                            <div class="splide_slide_container quiz">
+                                <h1 class="title">Where you paying attention?</h1>
+                                <h2 class="subtitle take-quiz">Take the quiz to find out how much you learned!</h2>
+                                <div id="quiz">
+                                    <div id="quiz-header">
+                                      <h1 class="quiz-title">Test Your Cheerwine Knowledge</h1>
+                                      <p><a id="quiz-home-btn"></a></p>
+                                    </div>
+                                    <div id="quiz-start-screen">
+                                      <p>
+                                        <a href="#" id="quiz-start-btn" class="quiz-button">Start Quiz</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide slide9">
+                            <h1 class="title">Sources</h1>
+                            <ul>
+                                <li>
+                                    Cheerwine info from <a class="source" href="https://cheerwine.com/about/">cheerwine.com</a>
+                                </li>
+                                <li>
+                                    Further background info from <a class="source" href="https://www.eater.com/2017/3/23/14950304/cheerwine-history">eater.com</a>
+                                </li>
+                                <li>
+                                    <a class="source" href="https://www.saveur.com/uploads/2019/05/14/6SHZV7BJ4EBSESQ3TAY4BAY3RY.jpg">Background Image</a>
+                                </li>
+                                <li><a class="source" href="https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201705/530881002.jpg">Slide 2 Image</a></li>
+                                <li><a class="source" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaXfdfrkeOKkeyRYze11oYRFUYVASAH3GHmA&usqp=CAU">Slide 4 Image</a></li>
+                                <li><a class="source" href="https://cheerwine.com/wp-content/uploads/sky-light-inn.jpg">Slide 5 Image</a></li>
+                                <li><a class="source" href="https://media.bizj.us/view/img/10433478/cheerwine-fb-mk005*1200xx5487-3086-0-286.jpg">Slide 6 Image</a></li>
+                                <li><a class="source" href="https://cheerwine.com/wp-content/uploads/festival-image-4.jpg">Slide 7 Image</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="./scripts/jquery.roadmap.min.js" type="text/javascript"></script>
+    <script src="./scripts/jquery.quiz-min.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
