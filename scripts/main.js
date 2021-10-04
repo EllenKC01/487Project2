@@ -106,7 +106,12 @@ $("#my-timeline").roadmap(myEvents, {
 const myQuiz = [
   {
     q: "Who is the creator of Cheerwine?",
-    options: ["Answer 1", "L.D. Peeler", "Answer 3", "Answer 4"],
+    options: [
+      "Caleb Brandham",
+      "L.D. Peeler",
+      "Charles Grigg",
+      "Bill Salisbury",
+    ],
     correctIndex: 1,
     correctResponse: "This answer is correct.",
     incorrectResponse: "This answer is incorrect.",
@@ -121,10 +126,10 @@ const myQuiz = [
   {
     q: "Why was the wild cherry flavor of Cheerwine originally so attractive?",
     options: [
-      "Answer 1",
-      "Answer 2",
+      "Cherry was the most popular flavor of the time",
+      "The flavor was the easiest to get rights for",
       "The sweetness allowed for less sugar",
-      "Answer 4",
+      "Wild cherry was a very nostalgic taste",
     ],
     correctIndex: 2,
     correctResponse: "This answer is correct.",
@@ -132,7 +137,12 @@ const myQuiz = [
   },
   {
     q: "What is the name for the combination of barbecue and Cheerwine?",
-    options: ["Answer 1", "Southern Handshake", "Answer 2", "Answer 2"],
+    options: [
+      "North Carolina Marriage",
+      "Southern Handshake",
+      "Carolina Connection",
+      "Southern Sisters",
+    ],
     correctIndex: 1,
     correctResponse: "This answer is correct.",
     incorrectResponse: "This answer is incorrect.",
